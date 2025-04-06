@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #1e1e1e;
+    color: #fff;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.event {
+    background: #2e2e2e;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
